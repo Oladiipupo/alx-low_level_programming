@@ -3,21 +3,21 @@
 /**
  * print_sign - function that prints signs
  *
- * @n: function parameter
+ * @r: function parameter
  *
  * Return: 1, 0 and -1
  */
 
-int print_sign(int n)
+int print_sign(int r)
 {
-	if (n > 0)
+	if (r > 0)
 	{
 		_putchar('+');
 		_putchar(',');
 		_putchar(' ');
 		return (1);
 	}
-	else if (n == 0)
+	else if (r == 0)
 	{
 		_putchar('0');
 		_putchar(',');
